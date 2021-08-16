@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <title>Création nouvel article</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <% if(locals.message) { %>
+                <a href="/admin" class="btn btn-secondary mt-4">Retour</a>
+                <div class="alert alert-success mt-4" role="alert">
+                    <%- message %>
+                </div>
+            <% } %>
+            <% if(locals.errMessage) { %>
+                <a href="/admin" class="btn btn-secondary mt-4">Retour</a>
+                <div class="alert alert-danger mt-4" role="alert">
+                    <%- errMessage %>
+                </div>
+            <% } %>
+
+            <h1 class="mb-4">Nouvel article</h1>
+
+            <form action="/admin/new" method="POST">
+                <div class="form-group">
+                    <label for="categorie"> Catégorie </label>
+                    <div>
+                        <select name="categorie">
+                            <option value=""></option>
+                            <option value="billet">Billet</option>
+                            <option value="moto">Moto</option>
+                            <option value="people">People</option>
+                            <option value="produit">Produit</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="titre">Titre</label>
+                    <input required type="text" name="titre" id="titre" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea name="description" id="description" class="form-control"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="contenu">Contenu</label>
+                    <textarea required name="contenu" id="contenu" class="form-control"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="note">Note</label>
+                    <textarea name="note" id="note" class="form-control"></textarea>
+                </div>
+
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Image</h5>
+                        <input type="file" id="image" name="image" accept="image/png, image/jpeg">
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn btn-primary mt-4">Envoyer</button>
+                <a href="/admin" class="btn btn-secondary mt-4">Annuler</a>
+            </form>
+        </div>
+    </body>
+</html>

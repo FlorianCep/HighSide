@@ -1,0 +1,680 @@
+@import url(//db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+@import url(//db.onlinewebfonts.com/c/451d0f54053426c8053683b532f3fe76?family=MuseoSansW01-300Italic);
+@import url(//db.onlinewebfonts.com/c/060c6a47b25e474e5dc3726cffbf2023?family=Museo+Sans+300);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+@media screen and (max-width: 767px) { 
+
+    /***** MAIN *****/
+    body {
+        background-color: #f1f1f1;
+    }
+
+    .conteneur {
+        width: 100%;
+    }
+
+    /********************************/
+    /* TAG */
+
+    h3 {
+        font-family: "Brandon Grotesque Bold";
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        display: block;
+        margin: 0 auto 1em auto;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-family:  "Brandon Grotesque Bold";
+        font-size: 1.4em;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        line-height: 1.2;
+        color: #00888b;
+    }
+
+    section {
+        width: 100%;
+        margin: auto;
+    }
+
+    /********************************/
+    /* Section découvrir et choisir */
+
+    .decouvrir, .choisir {
+        margin: 3.125em auto 3.125em auto;
+    }
+
+    .decouvrir {
+        margin-top: 0;
+    }
+
+    .decouvrir img, .choisir img {
+        width: 100%;
+    }
+
+    .choisir img {
+        margin-top: 3em; 
+    }
+
+    .decouvrir div, .choisir div {
+        text-align: center;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .decouvrir div {
+        margin-top: 3em;
+    }
+
+    .decouvrir p, .choisir p {
+        font-family: "MuseoSansW01-300Italic";
+        margin-bottom: 3em;
+        font-style: italic;
+        font-size: 1.45em;
+    }
+
+    .blog-button {
+        font-family: "Brandon Grotesque Bold";
+        border: .3125em solid black;
+        padding: 1.125em 3.125em;
+        font-size: 1.75em;
+        background-color: #f1f1f1;
+        font-weight: bold;
+        transition: 0.3s ease-in-out;
+    }
+
+    .blog-button:hover {
+        cursor: pointer;
+        background: #000000;
+        color: white;
+        border: .3125em solid black;
+        text-decoration: none;
+    }
+
+    /********************************/
+    /* Carousel */
+
+    .carousel {
+        display: none;
+    }
+
+    .slider {
+        position: absolute;
+        z-index: 2;
+        top: 20%;
+        left: 5%;
+        background-color: white;
+        width: 50vw;
+        padding: 1em;
+        opacity: .95;
+        width: 70%;
+    }
+
+    /********************************/
+    /* Section miniature */
+
+    .cat_home {
+        position: relative;
+        margin-top: 2em;
+    }
+
+    .cat_home img {
+        width: 100%;
+    }
+
+    .row {
+        margin: 0 auto;
+    }
+
+    .titre_cat_home {
+        text-align: center;
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        display: inline-block;
+        line-height: 17px;
+        background: white;
+        box-shadow: 0px 10px 0px -6px #000000;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /***** MAIN *****/
+    body {
+        background-color: #f1f1f1;
+    }
+
+    .conteneur {
+        width: 100%;
+    }
+
+    /********************************/
+    /* TAG */
+    
+    h3 {
+        font-family: "Brandon Grotesque Bold";
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        display: block;
+        margin: 0 auto 1em auto;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-family:  "Brandon Grotesque Bold";
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        line-height: 1.2;
+        color: #00888b;
+    }
+
+    section {
+        width: 95%;
+        margin: auto;
+    }
+
+    hr {
+        width: 10%;
+        margin: .93em 0;
+        border: 1px solid black;
+    }
+
+    /********************************/
+    /* Section decouvrir et choisir */
+
+    .decouvrir, .choisir {
+        margin: 3.125em auto 3.125em auto;
+        align-items: center;
+    }
+
+    .decouvrir img, .choisir img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .decouvrir div, .choisir div {
+        text-align: center;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .decouvrir p, .choisir p {
+        font-family: "MuseoSansW01-300Italic";
+        margin-bottom: 3em;
+        font-style: italic;
+        font-size: 1.45em;
+    }
+
+    .choisir img {
+        margin-top: 3em;
+    }
+
+    .decouvrir img {
+        margin-bottom: 3em;
+    }
+
+    .blog-button {
+        font-family: "Brandon Grotesque Bold";
+        border: .3125em solid black;
+        padding: 1.125em 3.125em;
+        font-size: 1.75em;
+        background-color: #f1f1f1;
+        font-weight: bold;
+        transition: 0.3s ease-in-out;
+    }
+
+    .blog-button:hover {
+        cursor: pointer;
+        background: #000000;
+        color: white;
+        border: .3125em solid black;
+        text-decoration: none;
+    }
+
+    /********************************/
+    /* Carousel */
+
+    .carousel img {
+        width: 100%;
+    }
+
+    .carousel .carousel-item {
+        height: 500px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+    }
+
+    .slider {
+        position: absolute;
+        z-index: 2;
+        top: 30%;
+        left: 10%;
+        background-color: white;
+        width: 50vw;
+        padding: 2em;
+        opacity: .95;
+        width: 70%;
+    }
+
+    .slider p {
+        font-family: "Museo Sans 300";
+        color: rgba(34,34,34,.8);
+        font-size: 1.2em;
+    }
+    
+    /********************************/
+    /* Section miniature */
+
+    .miniature {
+        margin: 30px auto;
+    }
+
+    .cat_home {
+        position: relative;
+        width: 30%;
+    }
+
+    .cat_home img {
+        width: 100%;
+    }
+
+    .row {
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .titre_cat_home {
+        text-align: center;
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        display: inline-block;
+        line-height: 17px;
+        background: white;
+        box-shadow: 0px 10px 0px -6px #000000;
+    }
+    
+    /********************************/
+}
+
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+
+    /***** MAIN *****/
+    body {
+        background-color: #f1f1f1;
+    }
+
+    .conteneur {
+        width: 100%;
+    }
+    
+    /********************************/
+    /* TAG */
+
+    h3 {
+        font-family: "Brandon Grotesque Bold";
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        display: block;
+        margin: 0 auto 1em auto;
+        font-weight: bold;
+        margin-bottom: .5em;
+    }
+
+    h4 {
+        font-family:  "Brandon Grotesque Bold";
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        line-height: 1.2;
+        color: #00888b;
+    }
+
+    section {
+        width: 95%;
+        margin: auto;
+    }
+
+    hr {
+        width: 10%;
+        margin: .93em 0;
+        border: 1px solid black;
+    }
+    
+    /********************************/
+    /* Section decouvrir et choisir */
+
+    .decouvrir, .choisir {
+        display: flex;
+        margin: 3.125em auto .5em auto;
+        align-items: center;
+    }
+
+    .choisir {
+        margin: 0 auto 3em auto;
+    }
+
+    .decouvrir img, .choisir img {
+        width: 50vw;
+    }
+
+    .decouvrir div {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        padding-left: 3.125em;
+    }
+
+    .choisir div {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        padding-right: 3.125em;
+    }
+
+    .decouvrir p, .choisir p {
+        font-family: "MuseoSansW01-300Italic";
+        margin-bottom: 2em;
+        font-style: italic;
+        font-size: 1.45em;
+    }
+
+    .blog-button {
+        font-family: "Brandon Grotesque Bold";
+        border: .3125em solid black;
+        padding: 1em 2.125em;
+        font-size: 1.5em;
+        background-color: #f1f1f1;
+        font-weight: bold;
+        transition: 0.3s ease-in-out;
+    }
+
+    .blog-button:hover {
+        cursor: pointer;
+        background: #000000;
+        color: white;
+        border: .3125em solid black;
+        text-decoration: none;
+    }
+
+    /********************************/
+    /* Carousel */
+
+    .carousel img {
+        width: 100%;
+    }
+
+    .carousel .carousel-item {
+        height: 500px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+    }
+
+    .slider {
+        position: absolute;
+        z-index: 2;
+        top: 30%;
+        left: 10%;
+        background-color: white;
+        width: 50vw;
+        padding: 2.5em;
+        opacity: .95;
+    }
+
+    .slider p {
+        font-family: "Museo Sans 300";
+        color: rgba(34,34,34,.8);
+        font-size: 1.2em;
+    }
+
+    /********************************/
+    /* Section miniature */
+
+    .miniature {
+        margin: 5em auto;
+    }
+
+    .cat_home {
+        position: relative;
+        width: 30%;
+    }
+
+    .cat_home img {
+        width: 100%;
+    }
+
+    .row {
+        margin: 0 auto;
+        width: 60%;
+        gap: 15px;
+    }
+
+    .titre_cat_home {
+        text-align: center;
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        display: inline-block;
+        line-height: 17px;
+        background: white;
+        box-shadow: 0px 10px 0px -6px #000000;
+    }
+    
+    /********************************/
+}
+
+
+@media (min-width: 1401px) {
+
+    /***** MAIN *****/
+    body {
+        background-color: #f1f1f1;
+    }
+
+    .conteneur {
+        width: 100%;
+    }
+    
+    /********************************/
+    /* TAG */
+
+    h3 {
+        font-family: "Brandon Grotesque Bold";
+        letter-spacing: .08em;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        display: block;
+        margin: 0 auto 1em auto;
+        font-weight: bold;
+    }
+
+    h4 {
+        font-family:  "Brandon Grotesque Bold";
+        font-size: 1.5em;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        line-height: 1.2;
+        color: #00888b;
+    }
+
+    section {
+        width: 95%;
+        margin: auto;
+    }
+
+    hr {
+        width: 10%;
+        margin: .93em 0;
+        border: 1px solid black;
+    }
+    
+    /********************************/
+    /* Section decouvrir et choisir */
+
+    .decouvrir, .choisir {
+        display: flex;
+        margin: 3.125em auto .5em auto;
+        align-items: center;
+    }
+
+    .choisir {
+        margin: 0 auto 3em auto;
+    }
+
+    .decouvrir img, .choisir img {
+        width: 50vw;
+    }
+
+    .decouvrir div {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        padding-left: 3.125em;
+    }
+
+    .choisir div {
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+        padding-right: 3.125em;
+    }
+
+    .decouvrir p, .choisir p {
+        font-family: "MuseoSansW01-300Italic";
+        margin-bottom: 3em;
+        font-style: italic;
+        font-size: 1.45em;
+    }
+
+    .blog-button {
+        font-family: "Brandon Grotesque Bold";
+        border: .3125em solid black;
+        padding: 1.125em 3.125em;
+        font-size: 1.75em;
+        background-color: #f1f1f1;
+        font-weight: bold;
+        transition: 0.3s ease-in-out;
+    }
+
+    .blog-button:hover {
+        cursor: pointer;
+        background: #000000;
+        color: white;
+        border: .3125em solid black;
+        text-decoration: none;
+    }
+
+    /********************************/
+    /* Carousel */
+
+    .carousel img {
+        width: 100%;
+    }
+
+    .carousel .carousel-item {
+        height: 500px;
+    }
+
+    .carousel-item img {
+        position: absolute;
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+    }
+
+    .slider {
+        position: absolute;
+        z-index: 2;
+        top: 30%;
+        left: 10%;
+        background-color: white;
+        width: 50vw;
+        padding: 2.5em;
+        opacity: .95;
+    }
+
+    .slider p {
+        font-family: "Museo Sans 300";
+        color: rgba(34,34,34,.8);
+        font-size: 1.2em;
+    }
+
+    /********************************/
+    /* Section miniature */
+
+    .miniature {
+        margin: 10em auto;
+    }
+
+    .cat_home {
+        position: relative;
+    }
+
+    .cat_home img {
+        width: 100%;
+    }
+
+    .row {
+        margin: 0 auto;
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 15px;
+    }
+
+    .titre_cat_home {
+        text-align: center;
+        font-family: "Poppins";
+        font-weight: bold;
+        font-size: 14px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        display: inline-block;
+        line-height: 17px;
+        background: white;
+        box-shadow: 0px 10px 0px -6px #000000;
+    }
+    
+    /********************************/
+}

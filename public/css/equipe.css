@@ -1,0 +1,266 @@
+@import url(//db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+@import url(//db.onlinewebfonts.com/c/451d0f54053426c8053683b532f3fe76?family=MuseoSansW01-300Italic);
+@import url(//db.onlinewebfonts.com/c/060c6a47b25e474e5dc3726cffbf2023?family=Museo+Sans+300);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+
+@media screen and (max-width: 767px) {
+    
+    body {
+        background-color: #f1f1f1;
+    }
+
+    main {
+        margin-bottom: 3.5em;
+    }
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5em;
+        margin-bottom: .3em;
+        text-align: center;
+    }
+
+    .conteneur {
+        margin-top: 7em;
+    }
+
+    .photo img, .skills img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .fiche {
+        margin-bottom: 3em;        
+    }
+
+    .skills {
+        margin: 1.5em;
+    }
+
+    .skills p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .presentation {
+        background-color: white;
+        width: 80%;
+        padding: 3em 1em;
+        margin: 0 auto;
+    }
+
+    .presentation p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    body {
+        background-color: #f1f1f1;
+    }
+
+    main {
+        margin-bottom: 3.5em;
+    }
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5em;
+        margin-bottom: .3em;
+        text-align: center;
+    }
+
+    .conteneur {
+        margin-top: 7em;
+    }
+
+    .photo img, .skills img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .fiche {
+        margin-bottom: 3em;        
+    }
+
+    .skills {
+        margin: 1.5em;
+    }
+
+    .skills p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .presentation {
+        background-color: white;
+        width: 80%;
+        padding: 3em 1em;
+        margin: 0 auto;
+    }
+
+    .presentation p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+    
+}
+
+
+@media (min-width: 1024px)  and (max-width: 1413px) {
+
+    body {
+        background-color: #f1f1f1;
+    }
+
+    main {
+        margin-bottom: 3.5em;
+    }
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2.5em;
+        margin-bottom: .3em;
+    }
+
+    .conteneur {
+        width: 80%;
+        margin-top: 7em;
+    }
+
+    .conteneur > .row {
+        margin-bottom: 3em;
+        padding-left: 10em;
+    }
+
+    .row, .membre {
+        display: flex;
+    }
+
+    .fiche {
+        width: 50%;
+    }
+
+    .photo img {
+        width: 100%;
+    }
+
+    .skills img {
+        width: 60%;
+    }
+
+    .skills p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: .5em;
+    }
+
+    .presentation {
+        background-color: white;
+        width: 80%;
+        padding: 3em 1em;
+    }
+
+    .presentation p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+
+    .membre {
+        margin-bottom: 1em;
+    }
+}
+
+
+@media (min-width: 1414px) {
+
+    body {
+        background-color: #f1f1f1;
+    }
+
+    main {
+        margin-bottom: 3.5em;
+    }
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3em;
+        margin-bottom: .3em;
+    }
+
+    .conteneur {
+        width: 80%;
+        margin-top: 7em;
+    }
+
+    .conteneur > .row {
+        margin-bottom: 3em;
+        padding-left: 10em;
+    }
+
+    .row, .membre {
+        display: flex;
+    }
+
+    .fiche {
+        width: 40%;
+    }
+
+    .photo img {
+        width: 100%;
+    }
+
+    .photo, .skills {
+        z-index: 2; 
+    }
+
+    .skills img {
+        width: 60%;
+    }
+
+    .skills p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: .5em;
+    }
+
+    .presentation {
+        background-color: white;
+        width: 80%;
+        padding: 3em 1em;
+        position: relative;
+        top: -5%;
+        z-index: 1;  
+    }
+
+    .presentation p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 300;
+    }
+}

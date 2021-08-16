@@ -1,0 +1,36 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Accueil admin</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="mb-4">Articles du blog</h1>
+            <a href="/admin/new" class="btn btn-success">Nouvel Article</a>
+
+            <% for (data of datas) { %>
+                <div class="card mt-4 mb-4">
+                    <div class="card-body">
+                        <h4 class="card-title"><%- data.Titre %></h4>
+
+                        <div class="card-subtitle text-muted mb-2">
+                            <%- data.Date.toLocaleDateString() %>
+                        </div>
+
+                        <div class="card-text mb-2">
+                            <%- data.Description %>
+                        </div>
+
+                        <a href="/admin/show?id=<%= data.id_article %>" class="btn btn-primary">Lire plus</a>
+                        <a href="/admin/edit?id=<%= data.id_article %>" class="btn btn-info">Éditer</a>
+                        <a href="/admin/delete?id=<%= data.id_article %>" class="btn btn-danger">Supprimer</a>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </body>
+</html>

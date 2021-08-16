@@ -1,0 +1,148 @@
+@import url(//db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+@import url(//db.onlinewebfonts.com/c/451d0f54053426c8053683b532f3fe76?family=MuseoSansW01-300Italic);
+@import url(//db.onlinewebfonts.com/c/060c6a47b25e474e5dc3726cffbf2023?family=Museo+Sans+300);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+@media screen and (max-width: 767px) {
+
+    body {
+        background-color: #f1f1f1;
+    }
+
+    main {
+        margin-bottom: 3.5em;
+    }
+
+    .conteneur {
+        width: 95%;
+        margin: 2em auto 0 auto;
+    }
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .text-muted {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 2.5em;
+    }
+
+    .accordion-body {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: black;
+        box-shadow: none;
+        background-color: white;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        color: black;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+        background-color: #f1f1f1;
+    }
+
+    main {
+        margin-bottom: 3.5em;
+    }
+
+    .conteneur {
+        width: 90%;
+        margin: 4.5em auto 0 auto;
+    }
+
+    h1 {
+        font-size: 3.5em;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .text-muted {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 2.5em;
+    }
+
+    .accordion-body {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: black;
+        box-shadow: none;
+        background-color: white;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        color: black;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+    body {
+        background-color: #f1f1f1;
+    }
+
+    main {
+        margin-bottom: 3.5em;
+    }
+
+    .conteneur {
+        width: 70%;
+        margin: 3em auto 0 auto;
+    }
+
+    h1 {
+        font-size: 3.5em;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .text-muted {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+        margin-bottom: 2.5em;
+    }
+
+    .accordion-body {
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: black;
+        box-shadow: none;
+        background-color: white;
+    }
+
+    .accordion-button {
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        color: black;
+    }
+}

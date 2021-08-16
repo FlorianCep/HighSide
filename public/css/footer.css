@@ -1,0 +1,128 @@
+@import url(//db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+@import url(//db.onlinewebfonts.com/c/451d0f54053426c8053683b532f3fe76?family=MuseoSansW01-300Italic);
+@import url(//db.onlinewebfonts.com/c/060c6a47b25e474e5dc3726cffbf2023?family=Museo+Sans+300);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+
+@media screen and (max-width: 767px) { 
+
+        
+    footer {
+        background-color: #f1f1f1;
+        padding-bottom: 3em;
+    }
+
+    footer .row {
+        margin: 0 auto;
+    }
+
+    footer .row ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    footer .row ul li {
+        margin: 1em;
+    }
+
+    footer i {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    footer a {
+        color: black;
+    }
+
+    footer img {
+        display: block;
+        width: 35%;
+        margin: 2em auto 0 auto;
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    footer {
+        background-color: #f1f1f1;
+        padding-bottom: 1.5em;
+    }
+
+    footer .row {
+        margin: 0 auto;
+    }
+
+    footer .row ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    footer .row ul li {
+        margin: 1em;
+    }
+
+    footer i {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    footer a {
+        color: black;
+    }
+
+    footer img {
+        display: block;
+        width: 20%;
+        margin: 2em auto 0 auto;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    footer {
+        background-color: #f1f1f1;
+        padding-bottom: 3em;
+    }
+
+    footer .row {
+        margin: 0 auto;
+    }
+
+    footer .row ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    footer .row ul li {
+        margin: 1em;
+    }
+
+    footer i {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    footer a {
+        color: black;
+    }
+
+    footer img {
+        display: block;
+        width: 7%;
+        margin: 2em auto 0 auto;
+    }
+
+}

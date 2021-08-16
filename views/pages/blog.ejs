@@ -1,0 +1,46 @@
+<%- include('../includes/head.ejs') %>
+
+    <link rel="stylesheet" href="/css/blog.css">
+    <title>Articles | High Side</title>
+</head>
+
+
+<body>
+    
+    <!-- Appel header/nav -->
+    <%- include('../includes/header.ejs') %>
+
+
+
+    <main>
+
+        <div class="conteneur">
+
+            <div class="articlesBlog">
+
+                <% if(locals.datas) { for (data of datas) { %>
+                    <div class="article">
+                        <a href="/article?id=<%= data.id_article %>"> <img src="/img/<%- data.image%>" alt="">  </a>
+
+                        <div class="titre-description">
+
+                            <a href="/article?id=<%= data.id_article %>"> <h4><%- data.Titre %></h4> </a>
+
+                            <hr>
+
+                            <div class="description">
+                                <%- data.Description %>
+                            </div>
+
+                        </div>
+                    </div>
+                <% }} %>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+<%- include('../includes/footer.ejs') %> 

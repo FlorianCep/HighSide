@@ -1,0 +1,415 @@
+@import url(//db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+@import url(//db.onlinewebfonts.com/c/451d0f54053426c8053683b532f3fe76?family=MuseoSansW01-300Italic);
+@import url(//db.onlinewebfonts.com/c/060c6a47b25e474e5dc3726cffbf2023?family=Museo+Sans+300);
+
+
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-family:  "Brandon Grotesque Bold";
+        text-transform: uppercase;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .conteneur {
+        background-color: white;
+        width: 95%;
+        text-align: left;
+        padding-top: 1em;
+        padding-bottom: 4em;
+    }
+
+    hr {
+        width: 50%;
+        margin: 0 10% 0 auto;
+        opacity: 1;
+        border: none;
+        height: 5px !important;
+        color: #e20000;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .details-article {
+        padding-left: 1.5em;
+    }
+
+    .details-article div {
+        margin: 1em 0;
+    }
+
+    h3 {
+        font-family:  "Brandon Grotesque Bold";
+        text-transform: uppercase;
+        margin-bottom: .8em;
+    }
+
+    h5 {
+        font-size: 1.3em;
+        margin: 1.5em auto .5em auto;
+    }
+
+    .image img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .texte, .accordion {
+        width: 90%;
+    }
+
+    img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 2;
+    }
+
+    h3 {
+        font-family:  "Brandon Grotesque Bold";
+        text-transform: uppercase;
+        margin: 2em auto .3em auto;
+        font-size: 1.3em;
+    }
+
+    .intro {
+        text-align: left;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    
+    .citation {
+        text-align: right;
+        font-size: 1.7em;
+        width: 45%;
+        position: relative;
+        left: 50%;
+    }
+
+    .citation p {
+        line-height: 1;
+        margin-bottom: .3em;
+    }
+
+    .picto img {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+    h1 {
+        font-family:  "Brandon Grotesque Bold";
+        text-transform: uppercase;
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .conteneur {
+        background-color: white;
+        width: 95%;
+        text-align: left;
+        padding-top: 1em;
+        padding-bottom: 4em;
+    }
+
+    hr {
+        width: 50%;
+        margin: 0 10% 0 auto;
+        opacity: 1;
+        border: none;
+        height: 5px !important;
+        color: #e20000;
+    }
+    
+    .texte, .accordion {
+        width: 75%;
+    }
+    
+    .contenu-article {
+        padding-left: 6em;
+    }
+
+    .details-article div {
+        margin: 2em 0;
+    }
+
+    .image img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        height: 100ù;
+        overflow: hidden;
+    }
+
+    img {
+        width: 50vh;
+        margin: 0 auto;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 2;
+    }
+
+    h3 {
+        font-family:  "Brandon Grotesque Bold";
+        text-transform: uppercase;
+        margin: 2em auto .3em auto;
+        font-size: 1.3em;
+    }
+
+    .intro {
+        text-align: left;
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+    
+    .citation {
+        text-align: right;
+        font-size: 1.7em;
+        width: 45%;
+        position: relative;
+        left: 50%;
+    }
+
+    .citation p {
+        line-height: 1;
+        margin-bottom: .3em;
+    }
+
+    .picto img {
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+
+@media (min-width: 1025px) {
+    
+    h1 {
+        font-family:  "Brandon Grotesque Bold";
+        text-transform: uppercase;
+        font-size: 3.5em;
+        text-align: left;
+        padding-left: .8em;
+        width: 75%;
+    }
+
+    .conteneur {
+        background-color: white;
+        text-align: left;
+        padding-top: 1em;
+        padding-bottom: 4em;
+    }
+
+    hr {
+        width: 20%;
+        margin: 0 10% 0 auto;
+        opacity: 1;
+        border: none;
+        height: 5px !important;
+        color: #e20000;
+    }
+
+    .btn, .text-muted {
+        margin-left: 3em;
+    }
+
+    .contenu-article {
+        padding-left: 6em;
+    }
+
+    .details-article div {
+        text-align: left;
+        margin: 2em 0;
+        line-height: 1.5;
+    }
+
+    .conteneur p, .conteneur ul  {
+        font-size : 1.2em;
+    }
+
+    .image img {
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        top: -65%;
+    }
+
+    .image {
+        width: 100%;
+        height: 40vh;
+    }
+
+    img {
+        display: block;
+        width: 90%;
+        margin: 0 ;
+    }
+    
+    h3 {
+        font-family:  "Brandon Grotesque Bold";
+        text-transform: uppercase;
+        font-size: 1.8em;
+        margin: 2em auto .3em auto;
+    }
+
+    h5 {
+        font-size: 1.3em;
+        margin: 1.5em 0 .5em 0;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .intro {
+        text-align: left;
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .texte, .accordion {
+        width: 75%;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 2;
+        font-weight: 300;
+    }
+    
+    .citation {
+        font-size: 2em;
+        width: 70%;
+        position: relative;
+        left: 25%;
+    }
+
+    .citation p {
+        text-align: right;
+        line-height: 1;
+        margin-bottom: .3em;
+        font-weight: 500;
+    }
+
+    .picto img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .notation {
+        color: #e20000;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 0 3em;
+        grid-auto-flow: row;
+        margin-top: 0 auto !important;
+        padding: 0 1em;
+    }
+
+    .noteConteneur {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 !important;
+    }
+
+    .picto, .masterNote {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .noteGlobale, .colNotes, .colNotes2 {
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        margin: 0 !important;
+        justify-content: center;
+    }
+
+    .noteGlobale p, .colNotes p, .colNotes2 p {
+        margin-bottom: 0;
+        line-height: 1;
+    }
+
+    span {
+        font-size: 7em;
+        font-weight: bold;
+    }
+
+    .noteGlobale p {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .bi-star-fill {
+        color: #e20000;
+    }
+
+    .bi-star {
+        color: #9a9a9a;
+    }
+
+    .noteGlobale h4, .colNotes h4, .colNotes2 h4 {
+        font-size: 1.2em;
+        font-weight: 900;
+    }
+
+    .titreNote {
+        margin: .5em auto !important;
+    }
+
+    .noteMoto {
+        margin-top: 6em;
+    }
+
+    .noteMoto > h3 {
+        padding-left: 1.5em;
+    }
+
+    .noteMoto > h4 {
+        padding-left: 1.8em;
+    }
+
+    .masterNote {
+        margin: 0 auto !important;
+    }
+}

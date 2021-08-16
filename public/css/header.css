@@ -1,0 +1,187 @@
+@import url(//db.onlinewebfonts.com/c/4c40c7f27503517082e3857518913bab?family=Brandon+Grotesque+Bold);
+@import url(//db.onlinewebfonts.com/c/451d0f54053426c8053683b532f3fe76?family=MuseoSansW01-300Italic);
+@import url(//db.onlinewebfonts.com/c/060c6a47b25e474e5dc3726cffbf2023?family=Museo+Sans+300);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+
+/* Portables et petites tablettes */
+@media screen and (max-width: 767px) { 
+
+    /**** HEADER ****/
+    header {
+        background-color: #f1f1f1;
+        height: 3.5em;
+        font-weight: normal;
+        font-size: 1.125em;
+    }
+
+    header img {
+        width: 8em;
+        height: 3em;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Nav */
+    nav ul {
+        display: none;
+    }
+
+
+    /***** MAIN *****/
+    .conteneur {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /**** HEADER ****/
+    header {
+        display: flex;
+        flex-direction: row;
+        background-color: #f1f1f1;
+        height: 3.5em;
+        font-weight: normal;
+        font-size: 1.125em;
+    }
+
+    header > a {
+        margin: auto;
+    }
+
+    header img {
+        width: 8em;
+        height: 3em;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    header li a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        margin: 2.5em;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        letter-spacing: .1em;
+        font-size: 1em;
+    }
+
+    /* Nav */
+    .navbar {
+        display: none !important;
+    }
+
+    .navNormal {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+        padding: .5em
+    }
+
+    .navNormal img {
+        display: block;
+        margin: 0 auto .7em auto;
+
+    }
+
+    li a:hover {
+        color: black;
+    }
+    
+    ul {
+        margin-top: 0;
+        margin-bottom: 0 !important;
+        padding-left: 0 !important;
+    }
+
+
+    /***** MAIN *****/
+    .conteneur {
+        width: 95%;
+        margin: auto;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    /**** HEADER ****/
+    header {
+        background-color: #f1f1f1;
+        height: 3em;
+        font-weight: normal;
+        font-size: 1.125em;
+    }
+
+    header img {
+        width: 8em;
+        height: 3em;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    header li a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        margin: 2.5em;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        letter-spacing: .1em;
+        font-size: 1em;
+    }
+    
+    header li a:hover {
+        color: #e20000;
+        transition: .5s;
+    }
+
+    /* Nav */
+    .navbar {
+        display: none !important;
+    }
+
+    .navNormal {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    ul {
+        margin-top: 0;
+        margin-bottom: 0 !important;
+        padding-left: 0 !important;
+    }
+
+
+    /***** MAIN *****/
+    .conteneur {
+        width: 95%;
+        margin: auto;
+    }
+}

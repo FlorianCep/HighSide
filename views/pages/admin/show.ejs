@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/admin/show.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lire plus</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      
+      <div class="conteneur">
+        <a href="/admin" class="btn btn-secondary mt-4">Retour</a>
+
+        <% if(locals.datas) { for (data of datas) { %>
+          <h1 class="mb-1 mt-4"><%= data.Titre %></h1>
+          <div class="text-muted mb-2">
+            <%= data.Date.toLocaleString() %>
+          </div>
+          <div>
+            <%- data.Contenu %>
+          </div>
+        <% }} %>
+      </div>
+
+    </div>
+  </body>
+</html>
